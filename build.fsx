@@ -1,4 +1,11 @@
-#r "paket: groupref build //"
+#r "paket:
+nuget FSharp.Core
+nuget Fake.Core.ReleaseNotes
+nuget Fake.Core.Target
+nuget Fake.DotNet.Cli
+nuget Fake.IO.FileSystem
+//"
+
 #load "./.fake/build.fsx/intellisense.fsx"
 
 #if !FAKE
